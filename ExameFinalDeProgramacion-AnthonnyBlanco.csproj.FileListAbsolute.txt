@@ -1,0 +1,2 @@
+C:\Users\ablan\source\repos\Sistema de Examen Final\ExameFinalDeProgramacion-AnthonnyBlanco\obj\Debug\ExameFinalDeProgramacion-AnthonnyBlanco.csproj.AssemblyReference.cache
+C:\Users\ablan\source\repos\Sistema de Examen Final\ExameFinalDeProgramacion-AnthonnyBlanco\obj\Debug\ExameFinalDeProgramacion-AnthonnyBlanco.csproj.CoreCompileInputs.cache

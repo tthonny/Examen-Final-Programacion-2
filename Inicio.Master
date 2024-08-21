@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Inicio.master.cs" Inherits="ExameFinalDeProgramacion_AnthonnyBlanco.Vistas.Inicio" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sistema de Viajeros 2024</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/MenuPagina.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav>
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" id="menu-toggle" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="logo">
+                        <h1>Sistema de Viajeros 2024</h1>
+                    </div>
+                    <div class="menu-items">
+                        <ul>
+                            <li><a href="Inicio1.aspx">Inicio</a></li>
+                            <li><a href="Pagina2.aspx">Registro de Viajeros</a></li>
+                            <li><a href="Pagina3.aspx">Registro de Entrada de Viajeros</a></li>
+                            <li><a href="Pagina4.aspx">Registro de Salida de Viajeros</a></li>
+                            <li><a href="Login.aspx">Salir</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
